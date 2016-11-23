@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import src="/Users/jenniferwong/.atom/code/labs/fe-zetsy-web-1116/fonts/Baskerville.ttc"
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,61 @@ body {
 }
 
 /* Write all remaining styles here */
+#logo h1 {
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	font-weight: normal;
+	color: rgb(150,173,167);
+	margin: 0 0 5px;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(111,127,122));
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+  margin: 0 0 20px;
+}
+/* ///////// MEDIA ///////// */
+
+#feature img {
+	border: 5px rgb(152,173,166) solid;
+	padding: 1px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+
+/* ///////// LAYOUT ///////// */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.col-1 {
+	float: left;
+	width: 23%;
+  margin-left: 2%;
+	background: rgb(249,239,237);
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
+	color: rgb(150,173,167);
+	clear:both;
+	margin: 0 0 20px 0;
+}
