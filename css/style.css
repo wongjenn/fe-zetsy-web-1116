@@ -76,3 +76,9 @@ footer {
 	clear:both;
 	margin: 0 0 20px 0;
 }
+
+/* ///////// MOUSE ///////// */
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
